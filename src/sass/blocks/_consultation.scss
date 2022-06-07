@@ -1,0 +1,24 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/consultation.jpg) center (center/cover) no-repeat;
+    &__descr {
+        color: #ffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .feed-form {
+        width: 250px;
+    }
+    .error {
+        border: 1px solid red
+
+    }
+    label.error{
+        color: rgb(255, 255, 255);
+        border: none;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,308 @@
+@media (max-width: 1200px) {
+    .carousel {
+        &__inner {
+            img {
+                width: 70%;
+            }
+        }
+        .prev {
+            left: 50px;
+        }
+        .next { 
+            right: 50px;
+        }
+    
+    }
+
+}
+
+@media (max-width: 991px) {
+    .container__promo{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .consultation {
+        display: flex;
+        .title_left {
+            font-size: 26px;
+            line-height: 40px;
+            text-align: center;
+            padding: 0 10px 70px 10px;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
+    .review {
+        margin-bottom: 70px;
+        &-item {
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        min-height: 380px;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+           font-size: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 40px;
+        } 
+    }
+    .header {
+        &__contacts {
+            width: 33%;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+
+    .benefits {
+        &__headertext {
+            font-size: 16px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__header{
+            font-size: 26px;
+        }
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 50%;
+            }
+        }
+
+    }
+    .catalog {
+        &__tabs {
+            display: flex;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-top: 15px;
+        }
+    }
+
+}
+@media (max-width: 575px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        &__logo {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+            img {
+                width: 100%;
+            }
+        }
+        &__official {
+            width: 50%;
+        }
+        &__contacts {
+            width: 50%;
+            display: flex;
+            align-items:center;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+    .benefits {
+        padding-bottom: 50px;
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &__icon {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 26px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__icons {
+            width: 90%;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 20px;
+        }
+    }
+    .carousel {
+        .tns-nav {
+            display: block;
+        }
+        .prev, .next {
+            display: none;
+        }
+
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 80%;
+            }
+        }
+
+    }
+    .review {
+        &-item {
+            display: flex;
+            flex-direction: column;
+            &__img {
+                display: block;
+                margin: 0 auto;
+            }
+            &__wrapper {
+                padding-top: 40px;
+                text-align: center;
+                margin-left: 0;
+
+            }
+        }
+
+    }
+    .footer {
+        &__info {
+            height: 270px;
+            width: 300px;
+            padding: 50px 18px 60px 18px;
+        }
+        &__address {
+            font-size: 16px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 23px;
+                &:hover{
+                    height: 40px;
+                }
+            }
+    }
+
+}
+@media (max-width: 436px) {
+    .header{
+        &__official {
+            width: 100%;
+        }
+        &__logo {
+            margin-bottom: 8px;
+        }
+        &__contacts{
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 18px;
+        }
+        &__subheader {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 0px;
+        }
+        &__icons {
+            width: 100%;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 14px;
+            padding-top: 30px;
+        }
+    }
+    .button_main {
+        width: 90%;
+        font-size: 12px;
+    }
+    .benefits {
+        &__header {
+            font-size: 16px;
+        }
+        &__icon {
+            width: 80%;
+        }
+    }
+    .consultation {
+        padding: 0;
+        .consultation__descr {
+            font-size: 16px;
+        }
+        .title_left {
+            font-size: 16px;
+            margin-top: 80px;
+        }
+
+    }
+    .carousel {
+        .tns-nav {
+        [data-nav] {
+            width: 20px;
+            height: 2px;
+            background-color: rgb(209, 207, 207);
+            margin: 10px;
+            border: none;
+        }
+        .tns-nav-active {
+            background-color: rgb(216, 29, 29);
+    
+            }
+        }
+    }
+    .modal {
+        width: 300px;
+        min-height: 400px;
+        &__close {
+            right: 10px;
+            top: 10px;
+        }
+    .feed-form_mt25 {
+        input {
+            width: 75%;
+        }
+        .button_submit {
+            width: 75%;
+        }
+    }
+
+}}
+}

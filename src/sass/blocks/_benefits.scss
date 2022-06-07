@@ -1,0 +1,46 @@
+.benefits {
+    min-height: 473px;
+    background: #F6F6F6;
+    &__icons {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        img {
+            width: 28%;
+            margin: 0 auto;
+        }
+    }
+    &__icon {
+        width: 27.7%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        &_animation {
+            animation: hartbeat 1.5s ease infinite;
+            // animation-name: hartbeat;
+            // animation-duration: 1.5s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+
+        }
+    }
+    &__headertext {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+
+}

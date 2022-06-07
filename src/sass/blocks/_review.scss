@@ -1,0 +1,27 @@
+.review {
+    margin-bottom: 70px;
+    &-item {
+        padding-top: 90px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        &__wrapper {
+            margin-left: 50px;
+        }
+        &__user {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px
+        }
+        &__achievement {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 19px;
+        }
+        
+        
+        }
+    }
+
